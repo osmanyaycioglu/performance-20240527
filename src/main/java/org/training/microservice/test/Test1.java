@@ -4,6 +4,7 @@ import org.training.microservice.Employee;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -18,7 +19,13 @@ public class Test1 {
     private static long decCounter = 0;
 
     public static void main(String[] args) {
-        for (int i = 0; i < 20_000_000; i++) {
+
+        Scanner scannerLoc = new Scanner(System.in);
+        System.out.println("Başlıyalım mı?");
+        String nextLoc = scannerLoc.next();
+
+
+        for (int i = 0; i < 10_000; i++) {
             counter++;
             create(i);
             if (i % 10_000 == 0) {
@@ -47,7 +54,9 @@ public class Test1 {
                 + index);
         employeeLoc.setSurname("surname");
         if (stringEmployeeMap.size() < 4_000_000 && !decrease){
-            stringEmployeeMap.put(employeeLoc.getName(), employeeLoc);
+            if (counter % 3 == 0){
+                stringEmployeeMap.put(employeeLoc.getName(), employeeLoc);
+            }
         }
         if (stringEmployeeMap.size() >= 3_999_999) {
             decrease = true;
@@ -65,6 +74,5 @@ public class Test1 {
                 decrease = false;
             }
         }
-
     }
 }
