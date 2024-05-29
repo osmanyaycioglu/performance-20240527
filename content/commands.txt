@@ -1,0 +1,26 @@
+-Xmx16g -XX:+UseZGC -XX:+ZGenerational -XX:+FlightRecorder -XX:StartFlightRecording=duration=200s,filename=flight.jfr
+
+-Xmx4g -XX:+UseG1GC -XX:+FlightRecorder -XX:StartFlightRecording=duration=200s,filename=flight.jfr
+
+-Xmx16g
+-XX:+UseZGC
+-XX:+ZGenerational
+-Xlog:gc*=info,phases*=info,safepoint=info:file=./gc.log::filecount=3,filesize=10m
+
+-Xmx8g -Xms8g -Xmn4g -Xlog:gc*=info,phases*=info,heap*=debug,safepoint=info:file=./gc.log::filecount=3,filesize=10m -XX:G1HeapWastePercent=30 -XX:InitiatingHeapOccupancyPercent=40 -XX:-G1UseAdaptiveIHOP -XX:G1MixedGCCountTarget=16 -XX:SurvivorRatio=4
+
+jmap -dump:all,file=/tmp/my_histo3.href 20872
+jps -l
+
+jstat -gcutil 20548 1000
+
+-XX:+UseG1GC
+-XX:InitialHeapSize=2g
+-XX:MaxHeapSize=2g
+-XX:MaxGCPauseMillis=500
+-XX:+DisableExplicitGC
+-XX:+UseStringDeduplication
+-XX:+ParallelRefProcEnabled
+-XX:MaxMetaspaceSize=256m
+-XX:MaxTenuringThreshold=1
+-Xlog:gc=debug:file=/tmp/gc.log:time,uptime,level,tags:filecount=5,filesize=100m

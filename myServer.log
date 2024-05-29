@@ -1,0 +1,135 @@
+|1        |2024-05-29 14:50:40,890 [pool-1-thread-25    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:23)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:38)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|6        |2024-05-29 14:50:40,895 [pool-1-thread-35    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:23)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:38)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|6        |2024-05-29 14:50:40,895 [pool-1-thread-34    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:23)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:38)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|6        |2024-05-29 14:50:40,895 [pool-1-thread-27    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:23)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:38)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|6        |2024-05-29 14:50:40,895 [pool-1-thread-30    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:23)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:38)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|1        |2024-05-29 15:02:57,459 [pool-1-thread-7     ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|143      |2024-05-29 15:02:57,601 [pool-1-thread-20    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|107      |2024-05-29 15:02:57,565 [pool-1-thread-28    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|66       |2024-05-29 15:02:57,524 [pool-1-thread-22    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|18       |2024-05-29 15:02:57,476 [pool-1-thread-13    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|23       |2024-05-29 15:08:25,381 [pool-1-thread-38    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|217      |2024-05-29 15:08:25,575 [pool-1-thread-14    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|107      |2024-05-29 15:08:25,465 [pool-1-thread-8     ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|41       |2024-05-29 15:08:25,399 [pool-1-thread-27    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+|1        |2024-05-29 15:46:13,705 [pool-1-thread-25    ] ERROR - [SmmpIOReader<run>] [connectionState@a_a-/127.0.0.1]  : Error : Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:418)
+	at com.adenon.api.smpp.core.SmppPackageReader.readSmppPackage(SmppPackageReader.java:25)
+	at com.adenon.api.smpp.core.SmmpIOReader.run(SmmpIOReader.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

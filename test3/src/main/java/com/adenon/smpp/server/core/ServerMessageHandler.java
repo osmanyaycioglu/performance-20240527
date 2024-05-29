@@ -51,7 +51,7 @@ public class ServerMessageHandler implements ISmppMessageHandler {
 
             case Smpp34Constants.MSG_SUBMIT_SM:
                 SubmitHolder handle = this.submitSMHandler.handle(header, byteBuffer, this.ioReactor);
-                list.add(handle);
+                // list.add(handle);
                 break;
 
             case Smpp34Constants.MSG_SUBMIT_SM_RESP:

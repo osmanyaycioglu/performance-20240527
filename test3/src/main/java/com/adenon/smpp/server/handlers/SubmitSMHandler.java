@@ -66,7 +66,7 @@ public class SubmitSMHandler {
 			check();
 			return holder;
 		}
-		map.put("" + header.getSequenceNo(), submitSMMessage);
+		// map.put("" + header.getSequenceNo(), submitSMMessage);
 
 		ioReactor.sendSubmitSMResponse(header.getSequenceNo(), byteBuffer, submitResponse);
 		if (ioReactor.getLogger().isDebugEnabled()) {
@@ -87,18 +87,18 @@ public class SubmitSMHandler {
 		getDelegation();
 	}
 	public void getDelegation() {
-		try {
-			Thread.sleep(10);
-		} catch (Exception e) {
-		}
+//		try {
+//			Thread.sleep(10);
+//		} catch (Exception e) {
+//		}
 		execute();
 	}
 	
 	public void execute() {
-		 for (int i = 1; i < 400; i++) {
-			SecureRandom random = new SecureRandom();
-			random.nextInt();
-		 }
+//		 for (int i = 1; i < 400; i++) {
+//			SecureRandom random = new SecureRandom();
+//			random.nextInt();
+//		 }
 	}
 	
 }

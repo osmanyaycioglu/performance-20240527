@@ -103,9 +103,9 @@ public class OptionalParameters extends MandatoryParameters {
         if (this.getOpParamSarSegmentSequenceNum() < -1) {
             this.setOpParamSarSegmentSequenceNum(1);
         }
-         for (int i = 0; i < 200; i++) {
-            StringUtils.generateUUID();
-         }
+//         for (int i = 0; i < 200; i++) {
+//            StringUtils.generateUUID();
+//         }
     }
 
     public void fillOptionalParameters(final ByteBuffer byteBuffer) throws Exception {
